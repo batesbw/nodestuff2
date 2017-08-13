@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+         <members>AUGraphics/FCmLogo_d_2</members>
+         <members>AUGraphics/Globe_Jigsaw_png</members>
+         <members>AUGraphics/LighthouseLogo</members>
+         <members>AUGraphics/Logo_for_One_App_IT</members>
+         <members>BLND_Logos_Identity/BLND_DreamFactory_Logo</members>
+         <members>LighthouseInformationCBCAdmin/Lighthouse_Logo_Horizontal_Reverse_Colours_Cropped</members>
+         <members>mkto2__Images/Lighthouse_Logo</members>
+         <members>AUGraphics/Salesforce_NSWG_Logo</members>
+         <members>Graphics_Pack_for_Tabs/Elephant_32x32_png</members>
+         <members>AUGraphics/Shopfront</members>
+         <members>AUGraphics/Chrome_Logo</members>
+         <members>AUGraphics/GSA_Logo</members>
+         <name>Document</name>
+    </types>
+    <version>40.0</version>
+</Package>
