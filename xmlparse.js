@@ -14,6 +14,7 @@ module.exports = {
             parser.parseString(data, function (err, result) {
                 console.dir(result);
                 console.log('Done');
+                console.log(JSON.stringify(result));
             });
         });
     });

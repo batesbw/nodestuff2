@@ -1,0 +1,496 @@
+{
+    "CustomObject": {
+        "$": {
+            "xmlns": "http://soap.sforce.com/2006/04/metadata"
+        },
+        "actionOverrides": [
+            {
+                "actionName": [
+                    "CancelEdit"
+                ],
+                "type": [
+                    "Default"
+                ]
+            },
+            {
+                "actionName": [
+                    "Clone"
+                ],
+                "type": [
+                    "Default"
+                ]
+            },
+            {
+                "actionName": [
+                    "Delete"
+                ],
+                "type": [
+                    "Default"
+                ]
+            },
+            {
+                "actionName": [
+                    "Edit"
+                ],
+                "type": [
+                    "Default"
+                ]
+            },
+            {
+                "actionName": [
+                    "New"
+                ],
+                "type": [
+                    "Default"
+                ]
+            },
+            {
+                "actionName": [
+                    "SaveEdit"
+                ],
+                "type": [
+                    "Default"
+                ]
+            },
+            {
+                "actionName": [
+                    "View"
+                ],
+                "type": [
+                    "Default"
+                ]
+            }
+        ],
+        "compactLayoutAssignment": [
+            "SYSTEM"
+        ],
+        "enableFeeds": [
+            "false"
+        ],
+        "fields": [
+            {
+                "fullName": [
+                    "AccountId"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "AssetLevel"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "AssetProvidedById"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "AssetServicedById"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "ContactId"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "CurrencyIsoCode"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "Description"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "InstallDate"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "IsCompetitorProduct"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "IsInternal"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "LocationId"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "Name"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "ParentId"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "Price"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "Product2Id"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "ProductCode"
+                ]
+            },
+            {
+                "fullName": [
+                    "ProductDescription"
+                ]
+            },
+            {
+                "fullName": [
+                    "ProductFamily"
+                ],
+                "type": [
+                    "Picklist"
+                ]
+            },
+            {
+                "fullName": [
+                    "PurchaseDate"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "Quantity"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "RootAssetId"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Lookup"
+                ]
+            },
+            {
+                "fullName": [
+                    "SerialNumber"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            },
+            {
+                "fullName": [
+                    "Status"
+                ],
+                "trackHistory": [
+                    "false"
+                ],
+                "type": [
+                    "Picklist"
+                ]
+            },
+            {
+                "fullName": [
+                    "UsageEndDate"
+                ],
+                "trackHistory": [
+                    "false"
+                ]
+            }
+        ],
+        "listViews": [
+            {
+                "fullName": [
+                    "AllAssets"
+                ],
+                "filterScope": [
+                    "Everything"
+                ],
+                "label": [
+                    "All Assets"
+                ]
+            }
+        ],
+        "searchLayouts": [
+            {
+                "customTabListAdditionalFields": [
+                    "ASSET.NAME",
+                    "ASSET.SERIAL_NUMBER",
+                    "ASSET.INSTALL_DATE",
+                    "ACCOUNT.NAME",
+                    "CONTACT.NAME",
+                    "PRODUCT2.NAME"
+                ],
+                "lookupDialogsAdditionalFields": [
+                    "ASSET.NAME",
+                    "ASSET.SERIAL_NUMBER",
+                    "ASSET.INSTALL_DATE",
+                    "ACCOUNT.NAME",
+                    "CONTACT.NAME"
+                ],
+                "lookupPhoneDialogsAdditionalFields": [
+                    "ASSET.NAME",
+                    "ASSET.SERIAL_NUMBER",
+                    "ASSET.INSTALL_DATE",
+                    "ACCOUNT.NAME",
+                    "CONTACT.NAME"
+                ],
+                "searchResultsAdditionalFields": [
+                    "ASSET.NAME",
+                    "ASSET.SERIAL_NUMBER",
+                    "ASSET.INSTALL_DATE",
+                    "ACCOUNT.NAME",
+                    "CONTACT.NAME"
+                ]
+            }
+        ],
+        "sharingModel": [
+            "ControlledByParent"
+        ],
+        "webLinks": [
+            {
+                "fullName": [
+                    "SetupEditCustomLinks"
+                ],
+                "availability": [
+                    "online"
+                ],
+                "displayType": [
+                    "link"
+                ],
+                "encodingKey": [
+                    "UTF-8"
+                ],
+                "hasMenubar": [
+                    "false"
+                ],
+                "hasScrollbars": [
+                    "true"
+                ],
+                "hasToolbar": [
+                    "false"
+                ],
+                "height": [
+                    "600"
+                ],
+                "isResizable": [
+                    "true"
+                ],
+                "linkType": [
+                    "url"
+                ],
+                "masterLabel": [
+                    "Setup: Edit Custom Links"
+                ],
+                "openType": [
+                    "newWindow"
+                ],
+                "position": [
+                    "none"
+                ],
+                "protected": [
+                    "false"
+                ],
+                "showsLocation": [
+                    "false"
+                ],
+                "showsStatus": [
+                    "false"
+                ],
+                "url": [
+                    "/setup/ui/link/custlinklist.jsp?retURL=%2Fui%2Fsetup%2FSetup%3Fsetupid%3DAsset&type=Asset&pageName=Asset&setupid=AssetLinks"
+                ]
+            },
+            {
+                "fullName": [
+                    "SetupModifyPageLayout"
+                ],
+                "availability": [
+                    "online"
+                ],
+                "displayType": [
+                    "link"
+                ],
+                "encodingKey": [
+                    "UTF-8"
+                ],
+                "hasMenubar": [
+                    "false"
+                ],
+                "hasScrollbars": [
+                    "true"
+                ],
+                "hasToolbar": [
+                    "false"
+                ],
+                "height": [
+                    "600"
+                ],
+                "isResizable": [
+                    "true"
+                ],
+                "linkType": [
+                    "url"
+                ],
+                "masterLabel": [
+                    "Setup: Modify Page Layout"
+                ],
+                "openType": [
+                    "newWindow"
+                ],
+                "position": [
+                    "none"
+                ],
+                "protected": [
+                    "false"
+                ],
+                "showsLocation": [
+                    "false"
+                ],
+                "showsStatus": [
+                    "false"
+                ],
+                "url": [
+                    "/setup/layout/layoutdnd.jsp?type=Asset&lid=00h20000000pO5r&setupid=AssetLayouts"
+                ]
+            },
+            {
+                "fullName": [
+                    "SetupNewCustomField"
+                ],
+                "availability": [
+                    "online"
+                ],
+                "displayType": [
+                    "link"
+                ],
+                "encodingKey": [
+                    "UTF-8"
+                ],
+                "hasMenubar": [
+                    "false"
+                ],
+                "hasScrollbars": [
+                    "true"
+                ],
+                "hasToolbar": [
+                    "false"
+                ],
+                "height": [
+                    "600"
+                ],
+                "isResizable": [
+                    "true"
+                ],
+                "linkType": [
+                    "url"
+                ],
+                "masterLabel": [
+                    "Setup: New Custom Field"
+                ],
+                "openType": [
+                    "newWindow"
+                ],
+                "position": [
+                    "none"
+                ],
+                "protected": [
+                    "false"
+                ],
+                "showsLocation": [
+                    "false"
+                ],
+                "showsStatus": [
+                    "false"
+                ],
+                "url": [
+                    "/p/setup/field/NewCustomFieldStageManager?p1=Asset&setupid=AssetFields"
+                ]
+            }
+        ]
+    }
+}
