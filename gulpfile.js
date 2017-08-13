@@ -10,6 +10,7 @@ var replace = require('gulp-replace');
 var replaceBatch = require('gulp-batch-replace');
 var del = require('del');
 var debug = require('gulp-debug');
+var xmlParse = require('./xmlparse.js')
 
 gulp.task('templates', function(){
   gulp.src(['./src/objects/Asset.object'])
@@ -58,6 +59,19 @@ gulp.task('retrieve-apex', function() {
   gulp.src("./package/package-apex.xml", { base: "." })
     .pipe(debug({title: 'retrieve'}))
     .pipe(forceMeta.retrieve({
+      username: 'nah',
+      password: 'lol',
+      loginUrl: 'https://test.salesforce.com',
+      pollTimeout: 1200*1000,
+      pollInterval: 10*1000,
+      version: '40.0'
+    }));
+});
+
+gulp.task('parse-xml', function() {
+  gulp.src("./package/package-apex.xml", { base: "." })
+    .pipe(debug({title: 'retrieve'}))
+    .pipe(xmlParse.parseXML({
       username: 'nah',
       password: 'lol',
       loginUrl: 'https://test.salesforce.com',
